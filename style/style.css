@@ -2,25 +2,55 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#main-navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #333333;
+}
+
 #home {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  height: 100vh;
   background-image: url(../images/FrontImage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 25%;
-  width: 100%;
 }
 
-#about-me, #gustos, #bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+#about-me, #gustos {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 70px 0;
 }
 
 #gustos {
   background-color: #f2f3f5;
+}
+
+.text-box h2 {
+  font-size: 38px;
+  font-weight: 500;
+  padding: 0 0 10px;
+  margin: 0;
+  line-height: 62px;
+  margin-top: 0;
+  text-transform: none;
+}
+
+.text-box p {
+  margin-bottom: 20px;
+}
+
+.image img {
+  max-width: 50%;
+  max-height: 50%;
 }
 /*# sourceMappingURL=style.css.map */
