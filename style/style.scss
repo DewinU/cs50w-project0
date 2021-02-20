@@ -1,0 +1,32 @@
+$SectionColor: #f2f3f5;
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background-image: url(../images/FrontImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 25%;
+  width: 100%;
+}
+
+%sections {
+  display: flex;
+  justify-content: center;
+}
+
+#about-me {
+  @extend %sections;
+}
+
+#gustos {
+  @extend %sections;
+  background-color: $SectionColor;
+}
+
+#bottom {
+  @extend %sections;
+}

@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background-image: url(../images/FrontImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 25%;
+  width: 100%;
+}
+
+#about-me, #gustos, #bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#gustos {
+  background-color: #f2f3f5;
+}
+/*# sourceMappingURL=style.css.map */
