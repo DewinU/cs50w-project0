@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://127.0.0.1:5500/Templates/estudies.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./DewinU Style - Inicio_files/css2" rel="stylesheet">
+    <link href="./DewinU Style - Inicio_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./DewinU Style - Inicio_files/style.css">
+    <title>DewinU Style - Inicio</title>
+  </head>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="main-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" onclick="check()" href="http://127.0.0.1:5500/Templates/index.html">Dewin U.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" onclick="check()" href="http://127.0.0.1:5500/Templates/index.html">¿Quien soy?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="check()" href="http://127.0.0.1:5500/Templates/estudios.html">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="check()" href="http://127.0.0.1:5500/Templates/experiencia.html">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="check()" href="http://127.0.0.1:5500/Templates/contacto.html">Contactame uwu</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home"></section>
+    <section id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="text-box">
+              <h2>About Dewin U.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                aliquam impedit deleniti earum doloremque cupiditate assumenda,
+                voluptatum dignissimos corporis id quibusdam fugiat error amet
+                at animi, reprehenderit ad odit odio.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="image">
+              <img src="./DewinU Style - Inicio_files/cs50.png" width="300px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gustos">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="image">
+              <img clas="image" src="./DewinU Style - Inicio_files/uni.png" width="300px">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="text-box">
+              <h2>About Dewin U.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                aliquam impedit deleniti earum doloremque cupiditate assumenda,
+                voluptatum dignissimos corporis id quibusdam fugiat error amet
+                at animi, reprehenderit ad odit odio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="text-box">
+              <h2>About Dewin U.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                aliquam impedit deleniti earum doloremque cupiditate assumenda,
+                voluptatum dignissimos corporis id quibusdam fugiat error amet
+                at animi, reprehenderit ad odit odio.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="image">
+              <img src="./DewinU Style - Inicio_files/atc.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="bottom"></footer>
+    <script>
+      function check() {
+        var name = document.querySelector("a").getAttribute("href");
+        if (document.location.pathname === name) {
+          document.querySelector("a").setAttribute("href") = "#page-top";
+        }
+      }
+    </script>
+    <script src="./DewinU Style - Inicio_files/bootstrap.bundle.min.js.download" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

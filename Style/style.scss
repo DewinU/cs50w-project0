@@ -38,21 +38,35 @@ body {
   background-color: #f2f3f5;
 }
 
-.text-box h2 {
-  font-size: 38px;
-  font-weight: 500;
-  padding: 0 0 10px;
-  margin: 0;
-  line-height: 62px;
-  margin-top: 0;
-  text-transform: none;
+.text-box {
+  margin: 20px;
+  h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
 }
 
-.text-box p {
-  margin-bottom: 20px;
-}
+.image {
+  position: relative;
+  @media (min-width: 576px) {
+    .col-sm {
+      flex: 1 0 0%;
+    }
+  }
 
-.image img {
-  max-width: 50%;
-  max-height: 50%;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

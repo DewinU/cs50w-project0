@@ -24,7 +24,8 @@ body {
   background-size: cover;
 }
 
-#about-me, #gustos {
+#about-me,
+#gustos {
   display: block;
   position: relative;
   overflow: hidden;
@@ -35,12 +36,7 @@ body {
   background-color: #f2f3f5;
 }
 
-.text-box {
-  margin: 20px;
-}
-
 .text-box h2 {
-  text-align: center;
   font-size: 38px;
   font-weight: 500;
   padding: 0 0 10px;
@@ -61,8 +57,8 @@ body {
 @media (min-width: 576px) {
   .image .col-sm {
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 0%;
-            flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
   }
 }
 
