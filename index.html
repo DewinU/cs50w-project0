@@ -24,7 +24,7 @@
       id="main-navbar"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" onclick="check()" href="index.html">Dewin U.</a>
+        <a class="navbar-brand" href="#page-top">Dewin U.</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,35 +39,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                onclick="check()"
-                href="index.html"
+              <a class="nav-link active" aria-current="page" href="index.html"
                 >¿Quien soy?</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                onclick="check()"
-                href="Templates/estudies.html"
-                >Estudios</a
-              >
+              <a class="nav-link" href="Templates/estudies.html">Estudios</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                onclick="check()"
-                href="Templates/experience.html"
+              <a class="nav-link" href="Templates/experience.html"
                 >Experiencia</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                onclick="check()"
-                href="Templates/contact.html"
+              <a class="nav-link" href="Templates/contact.html"
                 >Contactame uwu</a
               >
             </li>
@@ -83,10 +68,9 @@
             <div class="text-box">
               <h2>About Dewin U.</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                aliquam impedit deleniti earum doloremque cupiditate assumenda,
-                voluptatum dignissimos corporis id quibusdam fugiat error amet
-                at animi, reprehenderit ad odit odio.
+                I'm currently a Systems Engineering student, currently on 2nd
+                year, always trying to do my best, very familiar with education,
+                mentoring others and coworking.
               </p>
             </div>
           </div>
@@ -110,10 +94,7 @@
             <div class="text-box">
               <h2>About Dewin U.</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                aliquam impedit deleniti earum doloremque cupiditate assumenda,
-                voluptatum dignissimos corporis id quibusdam fugiat error amet
-                at animi, reprehenderit ad odit odio.
+                Passionate about programming, IoT and Micrososft Technologies
               </p>
             </div>
           </div>
@@ -121,14 +102,6 @@
       </div>
     </section>
     <footer id="bottom"></footer>
-    <script>
-      function check() {
-        var name = document.querySelector("a").getAttribute("href");
-        if (document.location.pathname === name) {
-          document.querySelector("a").setAttribute("href") = "#page-top";
-        }
-      }
-    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
