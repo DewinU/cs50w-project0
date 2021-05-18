@@ -1,0 +1,7 @@
+services:
+    web:
+      image: dewinu/cs50-web0:latest
+      volumes:
+        - C:\\Users\\DewinU\\Desktop\\DockerTest\\cs50w-project0:/usr/share/nginx/html
+      ports:
+        - "3000:80"
